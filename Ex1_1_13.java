@@ -1,8 +1,20 @@
+/*********************************************************************
+ * Solution to exercises in Algorithms Fourth Edition
+ * by Robert Sedgewick and Kevin Wayne
+ * 
+ * Exercise 1.1.13
+ * 
+ * Copyright 2014 David Leung
+ * Released under the MIT license
+ ********************************************************************/
+
+
 public class Ex1_1_13 {
     public static void printTranspose(int[][] matrix) {
         for (int j = 0; j < matrix[0].length; j++) {
             for (int i = 0; i < matrix.length; i++) {
-                StdOut.printf("%d ", matrix[i][j]);
+                String padding = matrix.length == i+1 ? "": " ";
+                StdOut.printf("%d%s", matrix[i][j], padding);
             }
             StdOut.println();
         }
