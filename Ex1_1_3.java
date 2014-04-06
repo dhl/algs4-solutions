@@ -1,6 +1,6 @@
 /*********************************************************************
  * Solution to exercises in Algorithms Fourth Edition
- * by Rovert Sedgewick and Kevin Wayne
+ * by Robert Sedgewick and Kevin Wayne
  * 
  * Exercise 1.1.3
  * 
@@ -8,7 +8,7 @@
  * inputs from the command line.
  * 
  * Copyright 2014 David Leung
- * Released under the MIT license.
+ * Released under the MIT license
  ********************************************************************/
 
 public class Ex1_1_3 {
