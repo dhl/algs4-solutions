@@ -1,3 +1,13 @@
+/*********************************************************************
+ * Solution to exercises in Algorithms Fourth Edition
+ * by Robert Sedgewick and Kevin Wayne
+ *
+ * Exercise 1.1.19
+ *
+ * Copyright 2014 David Leung
+ * Released under the MIT license
+ ********************************************************************/
+
 public class Ex1_1_19 {
     public static long fibonacci(int N) {
         assert N >= 0 : "N must be larger than or equal to zero";
